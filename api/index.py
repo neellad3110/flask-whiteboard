@@ -60,7 +60,7 @@ def dated_url_for(endpoint, **values):
 
 @app.route('/')
 def index():
-    return render_template('templates/index.html')
+    return render_template('index.html')
 
 
 def get_all_strokes():
